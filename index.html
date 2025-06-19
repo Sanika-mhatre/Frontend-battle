@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Battle 2.0</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="initLoader()">
+  <!-- Loader -->
+  <div id="loader" class="loader">
+    <img src="assets/loader/loading-gif.gif" alt="Loading..." />
+  </div>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1>BattleZone</h1>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle">🌗</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h2>Welcome to the Frontend Arena</h2>
+    <p>Replicate. Innovate. Dominate.</p>
+    <img src="assets/images/Hero.jpg" alt="Hero Image" />
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <img src="assets/images/gallery1.jpg" alt="Gallery Image" />
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section id="video" class="video-section">
+    <h2>Behind the Code</h2>
+    <video src="assets/video/showcase.mp4" autoplay muted loop controls></video>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Reach Out</h2>
+    <form>
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Your email" required />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Built by Sanika Mhatre ⚔️ Frontend Battle 2.0</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
